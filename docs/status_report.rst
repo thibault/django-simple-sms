@@ -48,7 +48,6 @@ Internally, the callback view updates the corresponding :class:`TextMessage`
 objects. If you need to perform actions on those updates, you can declare
 signals in one of your own applicatin. Here is a quick example.
 
-
 .. code:: python
 
     # -*- coding: utf-8 -*-
