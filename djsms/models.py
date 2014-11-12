@@ -10,7 +10,7 @@ class TextMessage(models.Model):
 
     .. note::
 
-        messages sent as multipart are still represented by a single
+        Messages sent as multipart are still represented by a single
         ``TextMessage`` object.
 
     ``TextMessage`` objects will be created by other part of the app (e.g the
