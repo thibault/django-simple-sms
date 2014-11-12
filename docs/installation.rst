@@ -6,7 +6,7 @@ Install the application with pip::
     pip install django-simple-sms
 
 
-Add `djsms` to you ``INSTALLED_APPS``
+Add `djsms` to you ``INSTALLED_APPS``::
 
 .. code:: python
 
@@ -16,6 +16,6 @@ Add `djsms` to you ``INSTALLED_APPS``
         …
     )
 
-Set a text message backend with the ``DJSMS_BACKEND`` ::
+Set a :doc:`text message backend </backends>` in your settings::
 
     DJSMS_BACKEND = 'djsms.backends.FileBasedBackend'
