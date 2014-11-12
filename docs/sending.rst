@@ -23,18 +23,16 @@ Quick example
 The ``send_text`` method
 ------------------------
 
-The easiest way to send text messages is to use the ``send_text`` utility
-method. It's a convenient helper to quickly access the application features.
-
-.. automodule:: djsms
-    :members: send_text
-
-
 .. note:: Formatting phone numbers
 
     Phone numbers must be formatted in international format, with the country
     code at the beginning and a leading "+".
 
+The easiest way to send text messages is to use the ``send_text`` utility
+method. It's a convenient helper to quickly access the application features.
+
+.. automodule:: djsms
+    :members: send_text
 
 .. warning:: Blocking method
 
