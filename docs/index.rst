@@ -44,4 +44,5 @@ Contents
    status_report
    incoming
    backends
-   api
+   exceptions
+   colophon
