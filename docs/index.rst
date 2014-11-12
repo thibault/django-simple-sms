@@ -42,3 +42,6 @@ Contents
    installation
    backends
    sending
+   status_report
+   incoming_messages
+   api
