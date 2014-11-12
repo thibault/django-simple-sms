@@ -46,9 +46,7 @@ method. It's a convenient helper to quickly access the application features.
 The ``TextMessage`` class
 -------------------------
 
-.. module:: djsms.models
-
-.. autoclass:: TextMessage
+.. autoclass:: djsms.models.TextMessage
     :members:
 
     .. warning::
