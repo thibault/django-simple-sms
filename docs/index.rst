@@ -40,8 +40,8 @@ Contents
    :maxdepth: 2
 
    installation
-   backends
    sending
    status_report
    incoming
+   backends
    api
