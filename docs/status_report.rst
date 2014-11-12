@@ -1,5 +1,5 @@
-Status reports
-==============
+Getting status reports
+======================
 
 Some text message providers can asynchronously call one of your api to provide
 details about message delivery statuses.
