@@ -1,4 +1,4 @@
 django-simple-sms
 =================
 
-Send sms from your Django project
+Easily send text messages from your Django project.
