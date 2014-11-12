@@ -6,7 +6,9 @@ from __future__ import unicode_literals
 def send_text(text, frm, to, fail_silently=True, status_report=False):
     """A convenient helper to quickly access the application features.
 
-    Required params:
+    Returns a :class:`~djsms.models.TextMessage` object.
+
+    Required parameters:
 
     :param text: the text message body. It's length is not limited, but if it's
         too long, your carrier will probably split it and send in a multipart
@@ -16,16 +18,17 @@ def send_text(text, frm, to, fail_silently=True, status_report=False):
         local laws.
     :param to: the recipient phone number.
 
-    Additionals params:
+    Additionals parameters:
 
     :param fail_silently: If True, errors will just be ignored.
-        Otherwise raises a :class:`~djsms.exceptions.DjsmsError`. Default to
-        True.
     :param status_report: If True, asks the selected carrier to provide
         status report by asynchronously calling an uri. If your carrier does'nt
         provide this option, the parameter value will simply be ignored.
 
-    Returns a :class:`~djsms.DjText` object.
+    Raises:
+
+        Any :class:`~djsms.exceptions.TextMessageError` subclass is
+        ``fail_silently`` is False.
 
     """
     pass
