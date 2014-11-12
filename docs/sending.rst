@@ -18,7 +18,7 @@ Quick example
     frm = '+33123456789'
     to = '+33987654321'
     text = 'Please remember to pick up the bread before coming'
-    send_text(text, frm, to)
+    message = send_text(text, frm, to)
 
 The ``send_text`` method
 ------------------------
@@ -34,3 +34,12 @@ method. It's a convenient helper to quickly access the application features.
 
     Phone numbers must be formatted in international format, with the country
     code at the beginning and a leading "+".
+
+
+.. warning:: Blocking method
+
+    Most backends will work using a REST Api. ``send_text`` will result in a
+    blocking HTTP request which can generate a noticeable delay if called
+    during a client's request processing.
+
+    You might want to delegate the actual call to the method in a Celery task.

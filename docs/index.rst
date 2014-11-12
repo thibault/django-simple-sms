@@ -43,5 +43,5 @@ Contents
    backends
    sending
    status_report
-   incoming_messages
+   incoming
    api

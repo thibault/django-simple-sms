@@ -25,5 +25,7 @@ def send_text(text, frm, to, fail_silently=True, status_report=False):
         status report by asynchronously calling an uri. If your carrier does'nt
         provide this option, the parameter value will simply be ignored.
 
+    Returns a :class:`~djsms.DjText` object.
+
     """
     pass
