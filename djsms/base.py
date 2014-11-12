@@ -27,7 +27,7 @@ def send_text(text, frm, to, fail_silently=True, status_report=False):
 
     Raises:
 
-        Any :class:`~djsms.exceptions.TextMessageError` subclass is
+        Any :class:`~djsms.exceptions.TextMessageError` subclass if
         ``fail_silently`` is False.
 
     """
