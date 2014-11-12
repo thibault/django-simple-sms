@@ -1,7 +1,7 @@
 Sending text messages
 =====================
 
-So, how do me actually send text messages?
+So, how do we actually send text messages?
 
 Quick example
 -------------
@@ -23,7 +23,7 @@ Quick example
 The ``send_text`` method
 ------------------------
 
-.. note:: Formatting phone numbers
+.. note::
 
     Phone numbers must be formatted in international format, with the country
     code at the beginning and a leading "+".
@@ -34,7 +34,7 @@ method. It's a convenient helper to quickly access the application features.
 .. automodule:: djsms
     :members: send_text
 
-.. warning:: Blocking method
+.. warning::
 
     Most backends will work using a REST Api. ``send_text`` will result in a
     blocking HTTP request which can generate a noticeable delay if called
@@ -51,7 +51,7 @@ The ``TextMessage`` class
 .. autoclass:: TextMessage
     :members:
 
-    .. warning:: Don't mess up with the currency
+    .. warning::
 
         The ``price`` attributes contains the price charged by the provider for
         this text message. This price can be expressed in any currency, however,
@@ -71,7 +71,7 @@ The ``TextMessage`` class
             * `refused`: the message was refused by your provider
             * `rejected`: the message was refused by the destination carrier
 
-        .. warning:: Don't confuse statuses
+        .. warning::
 
             Because a message was received and accepted by your text message
             provider does not mean it will be accepted by the destination
