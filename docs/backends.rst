@@ -2,7 +2,8 @@ Backends
 ========
 
 The application can be configured to use different backends to send the actual
-text messages. Some backends are only used for testing.
+text messages. Some backends are only used for testing and not intended for
+production.
 
 Dummy backend
 -------------
