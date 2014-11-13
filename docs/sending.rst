@@ -1,7 +1,8 @@
 Sending text messages
 =====================
 
-So, how do we actually send text messages?
+To send text messages, you can use a high-level helper api or use the low level
+api.
 
 Quick example
 -------------
