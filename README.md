@@ -37,6 +37,10 @@ INSTALLED_APPS = (
 )
 ```
 
+Set a [text message backend](http://django-simple-sms.readthedocs.org/en/latest/backends.html) in your settings::
+
+    DJSMS_BACKEND = 'djsms.backends.FileBasedBackend'
+
 Quick example
 -------------
 
