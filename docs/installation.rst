@@ -6,7 +6,7 @@ Install the application with pip::
     pip install django-simple-sms
 
 
-Add `djsms` to you ``INSTALLED_APPS``::
+Add `djsms` to you ``INSTALLED_APPS``:
 
 .. code:: python
 
