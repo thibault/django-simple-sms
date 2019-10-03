@@ -1,2 +1,2 @@
 # A requirements file is necessary for readthedocs.org
-Django==1.7.1
+Django==1.11.23
